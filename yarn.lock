@@ -1232,14 +1232,6 @@ apollo-link-http-common@^0.2.8:
   dependencies:
     apollo-link "^1.2.6"
 
-apollo-link-http@^1.5.9:
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.5.9.tgz#9046f5640a94c8a8b508a39e0f2c628b781baecc"
-  integrity sha512-9tJy2zGm4Cm/1ycScDNZJe51dgnTSfKx7pKIgPZmcxkdDpgUY2DZitDH6ZBv4yp9z8MC9Xr9wgwc29s6hcadUQ==
-  dependencies:
-    apollo-link "^1.2.6"
-    apollo-link-http-common "^0.2.8"
-
 apollo-link@^1.0.0, apollo-link@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.6.tgz#d9b5676d79c01eb4e424b95c7171697f6ad2b8da"
