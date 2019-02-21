@@ -10,6 +10,7 @@
     },
     "settings": {
         "import/resolver": {
+            "alias": [["@test", "./test"]],
             "node": {
                 "moduleDirectory": ["src/", "node_modules"]
             }
