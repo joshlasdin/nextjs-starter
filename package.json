@@ -2,6 +2,11 @@
     "name": "next-starter",
     "version": "1.0.0",
     "license": "UNLICENSED",
+    "greenkeeper": {
+        "ignore": [
+            "confidence"
+        ]
+    },
     "scripts": {
         "lint": "eslint src",
         "prettier": "prettier \"**/*.+(js|json|scss|css|yml|md)\"",
