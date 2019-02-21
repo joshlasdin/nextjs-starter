@@ -1,5 +1,7 @@
 # nextjs-starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/joshlasdin/nextjs-starter.svg)](https://greenkeeper.io/)
+
 Project bootstrap containing:
 
 -   React
