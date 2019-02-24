@@ -62,7 +62,7 @@
         "postcss-flexbugs-fixes": "^4.1.0",
         "postcss-nested": "^4.1.1",
         "prettier": "^1.16.4",
-        "react-testing-library": "^5.9.0",
+        "react-testing-library": "^6.0.0",
         "tailwindcss": "^0.7.4",
         "test-data-bot": "^0.7.1",
         "waait": "^1.0.4"
