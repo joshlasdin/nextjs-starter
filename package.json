@@ -23,7 +23,7 @@
         "apollo-cache-inmemory": "^1.4.3",
         "apollo-client": "^2.4.13",
         "apollo-link-batch-http": "^1.2.8",
-        "camelcase-keys": "^5.0.0",
+        "camelcase-keys": "^6.0.0",
         "confidence": "^3.0.0",
         "graphql": "^14.1.1",
         "graphql-tag": "^2.10.1",
