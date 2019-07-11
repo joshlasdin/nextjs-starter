@@ -3,6 +3,7 @@ const DotenvPlugin = require('dotenv-webpack');
 
 module.exports = withCSS({
     distDir: '../dist',
+    exportTrailingSlash: true,
 
     webpack: config => {
         // Module alias to /src directory

@@ -15,6 +15,7 @@
         "test": "NODE_PATH=./src jest",
         "dev": "NODE_PATH=./src next ./src",
         "build": "NODE_PATH=./src next build ./src",
+        "export": "yarn build && next export -o build ./src",
         "start": "NODE_PATH=./src next start ./src"
     },
     "browserslist": [
