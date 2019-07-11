@@ -1,11 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss/base';
+@import './base.css';
 
-html {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+@import 'tailwindcss/components';
 
-@tailwind utilities;
-@tailwind screens;
+@import 'tailwindcss/utilities';
