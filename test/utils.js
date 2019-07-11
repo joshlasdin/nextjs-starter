@@ -1,5 +1,5 @@
 import React from 'react';
-import { render as rtlRender, fireEvent, wait } from 'react-testing-library';
+import { render as rtlRender, fireEvent, wait } from '@testing-library/react';
 import TestWrapper from './wrapper';
 
 /* eslint-disable import/prefer-default-export */
