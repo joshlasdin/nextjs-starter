@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MockedProvider } from 'react-apollo/test-utils';
+import { MockedProvider } from '@apollo/react-testing';
 
 const TestWrapper = ({ mocks, children }) => (
     <MockedProvider mocks={mocks} addTypeName={false}>
