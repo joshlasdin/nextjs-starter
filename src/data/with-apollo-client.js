@@ -1,11 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
-import { getDataFromTree } from 'react-apollo';
+import { getDataFromTree } from '@apollo/react-ssr';
 
 import createApolloClient from './create-apollo-client';
 
 export default App =>
     class Apollo extends React.Component {
+        // eslint-disable-next-line react/static-property-placement
         static displayName = 'withApollo(App)';
 
         static async getInitialProps(ctx) {
