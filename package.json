@@ -27,7 +27,7 @@
     "dependencies": {
         "@apollo/react-hooks": "^3.0.1",
         "@apollo/react-ssr": "^3.0.1",
-        "@emotion/core": "^10.0.16",
+        "@emotion/core": "^10.0.22",
         "@emotion/styled": "^10.0.15",
         "@testing-library/jest-dom": "^4.0.0",
         "@testing-library/react": "^9.1.3",
