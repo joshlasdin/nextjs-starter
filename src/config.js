@@ -1,10 +1,10 @@
-import Confidence from 'confidence';
+import Store from 'conf-store';
 import camelcase from 'camelcase-keys';
 import tailwindConfig from '../tailwind.config';
 
 const env = process.env.NODE_ENV || 'development';
 
-const store = new Confidence.Store({
+const store = new Store({
     env,
 
     apollo: {
