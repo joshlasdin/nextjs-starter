@@ -36,7 +36,7 @@
         "apollo-link-batch-http": "^1.2.13",
         "camelcase-keys": "^6.1.1",
         "conf-store": "^1.3.2",
-        "graphql": "^14.5.8",
+        "graphql": "^15.0.0",
         "graphql-tag": "^2.10.1",
         "isomorphic-unfetch": "^3.0.0",
         "lodash": "^4.17.15",
