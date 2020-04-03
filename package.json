@@ -34,7 +34,7 @@
         "apollo-cache-inmemory": "^1.6.5",
         "apollo-client": "^2.6.8",
         "apollo-link-batch-http": "^1.2.13",
-        "camelcase-keys": "^6.1.1",
+        "camelcase-keys": "^6.2.2",
         "conf-store": "^1.3.2",
         "graphql": "^14.5.8",
         "graphql-tag": "^2.10.1",
