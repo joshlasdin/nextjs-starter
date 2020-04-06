@@ -72,7 +72,7 @@
         "postcss-easy-import": "^3.0.0",
         "postcss-flexbugs-fixes": "^4.1.0",
         "postcss-nested": "^4.2.1",
-        "prettier": "^1.19.1",
+        "prettier": "^2.0.4",
         "tailwindcss": "^1.1.4",
         "test-data-bot": "^0.8.0",
         "waait": "^1.0.5"
