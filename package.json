@@ -30,7 +30,7 @@
         "@emotion/core": "^10.0.27",
         "@emotion/styled": "^10.0.27",
         "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.4.0",
+        "@testing-library/react": "^10.0.3",
         "apollo-cache-inmemory": "^1.6.5",
         "apollo-client": "^2.6.8",
         "apollo-link-batch-http": "^1.2.13",
