@@ -32,7 +32,7 @@
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.4.0",
         "apollo-cache-inmemory": "^1.6.6",
-        "apollo-client": "^2.6.8",
+        "apollo-client": "^2.6.10",
         "apollo-link-batch-http": "^1.2.13",
         "camelcase-keys": "^6.1.1",
         "conf-store": "^1.3.2",
