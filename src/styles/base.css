@@ -1,5 +1,4 @@
 html {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  @apply antialiased font-sans font-normal text-gray-800;
+  text-rendering: optimizeLegibility;
 }

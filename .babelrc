@@ -1,4 +1,4 @@
 {
     "presets": ["next/babel"],
-    "plugins": ["emotion", "graphql-tag"]
+    "plugins": ["graphql-tag", "inline-react-svg"]
 }

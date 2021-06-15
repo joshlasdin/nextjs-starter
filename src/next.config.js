@@ -1,34 +1,12 @@
-const withCSS = require('@zeit/next-css');
-const DotenvPlugin = require('dotenv-webpack');
+const withPlugins = require('next-compose-plugins');
+const sourcemaps = require('@zeit/next-source-maps');
+const tm = require('next-transpile-modules');
 
-module.exports = withCSS({
-    distDir: '../dist',
-    exportTrailingSlash: true,
+const transpileModules = ['camelcase', 'camelcase-keys', 'lodash-es', 'map-obj', 'tailwindcss'];
 
-    webpack: config => {
-        // Module alias to /src directory
-        config.resolve.modules = [process.env.NODE_PATH, 'node_modules'];
-
-        // Linter
-        config.module.rules.unshift({
-            test: /\.(js|jsx|mjs)$/,
-            enforce: 'pre',
-            include: __dirname,
-            use: [
-                {
-                    options: {
-                        formatter: require('format-messages-webpack-plugin/formatter'),
-                        emitWarning: true,
-                        eslintPath: require.resolve('eslint'),
-                    },
-                    loader: require.resolve('eslint-loader'),
-                },
-            ],
-        });
-
-        // dotenv
-        config.plugins.push(new DotenvPlugin());
-
-        return config;
-    },
+module.exports = withPlugins([tm(transpileModules), sourcemaps], {
+  webpack: (config) => {
+    config.resolve.modules = [process.env.NODE_PATH, 'node_modules'];
+    return config;
+  },
 });

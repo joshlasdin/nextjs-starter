@@ -1,59 +1,58 @@
 {
-    "extends": ["airbnb", "prettier", "plugin:jest/recommended"],
-    "parser": "babel-eslint",
-    "plugins": ["prefer-object-spread", "jest", "emotion"],
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "node": true,
-        "es6": true
-    },
-    "settings": {
-        "import/resolver": {
-            "alias": [["@test", "./test"]],
-            "node": {
-                "moduleDirectory": ["src/", "node_modules"]
-            }
-        }
-    },
-    "rules": {
-        "comma-dangle": [
-            "error",
-            {
-                "arrays": "always-multiline",
-                "objects": "always-multiline",
-                "imports": "always-multiline",
-                "exports": "always-multiline",
-                "functions": "ignore"
-            }
-        ],
-        "no-underscore-dangle": "off",
-        "no-restricted-syntax": "off",
-        "no-await-in-loop": "off",
-        "curly": "warn",
-        "function-paren-newline": "off",
-        "global-require": "off",
-        "import/no-extraneous-dependencies": "off",
-        "indent": "off",
-        "jsx-a11y/anchor-is-valid": "off",
-        "jsx-a11y/label-has-for": ["error", { "required": "id" }],
-        "jsx-a11y/label-has-associated-control": "off",
-        "jsx-a11y/no-noninteractive-element-interactions": "off",
-        "jsx-a11y/click-events-have-key-events": "off",
-        "jsx-a11y/no-autofocus": "off",
-        "jsx-a11y/control-has-associated-label": "off",
-        "no-console": "off",
-        "no-param-reassign": ["error", { "props": false }],
-        "react/jsx-one-expression-per-line": "off",
-        "react/jsx-wrap-multilines": "off",
-        "react/jsx-filename-extension": "off",
-        "react/jsx-indent": [2, 4],
-        "react/jsx-indent-props": [2, 4],
-        "react/jsx-curly-brace-presence": "off",
-        "react/jsx-curly-newline": "off",
-        "react/jsx-props-no-spreading": "off",
-        "react/no-did-mount-set-state": "off",
-        "strict": ["error", "global"],
-        "class-methods-use-this": "off"
+  "extends": ["airbnb", "prettier", "plugin:jest/recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["prefer-object-spread", "jest"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [["@test", "./test"]],
+      "node": {
+        "moduleDirectory": ["src/", "node_modules"]
+      }
     }
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ],
+    "no-underscore-dangle": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "curly": "warn",
+    "function-paren-newline": "off",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "indent": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/label-has-for": ["error", { "required": "id" }],
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "no-console": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-curly-newline": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-did-mount-set-state": "off",
+    "react/react-in-jsx-scope": "off",
+    "strict": ["error", "global"],
+    "class-methods-use-this": "off"
+  }
 }

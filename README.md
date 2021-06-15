@@ -5,10 +5,9 @@
 
 Project bootstrap containing:
 
--   React
--   NextJS (SSR)
--   Apollo (GraphQL)
--   TailwindCSS (Global utility CSS)
--   Emotion (Scoped CSS-in-JS)
--   Jest (testing)
--   Confidence (config)
+- React
+- NextJS (SSR)
+- Apollo (GraphQL)
+- TailwindCSS (Global utility CSS)
+- Jest (testing)
+- Conf-store (Confidence-style config)

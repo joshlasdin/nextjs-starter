@@ -1,18 +1,17 @@
-import App from 'next/app';
-import React from 'react';
-import { ApolloProvider } from '@apollo/react-hooks';
+import { ApolloProvider } from '@apollo/client';
 
-import withApolloClient from 'data/with-apollo-client';
+import { useApollo } from 'lib/apolloClient';
+import 'styles/style.css';
 
-class MyApp extends App {
-    render() {
-        const { Component, pageProps, apolloClient } = this.props;
-        return (
-            <ApolloProvider client={apolloClient}>
-                <Component {...pageProps} />
-            </ApolloProvider>
-        );
-    }
-}
+// eslint-disable-next-line react/prop-types
+const App = ({ Component, pageProps }) => {
+  const apolloClient = useApollo(pageProps);
 
-export default withApolloClient(MyApp);
+  return (
+    <ApolloProvider client={apolloClient}>
+      <Component {...pageProps} />
+    </ApolloProvider>
+  );
+};
+
+export default App;
